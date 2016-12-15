@@ -1,0 +1,1 @@
+<resources><style name="Theme.FlyingCow" parent="android:Theme.Holo.Light"><item name="android:windowNoTitle">false</item><!--We will be using the toolbar so no need to show ActionBar--><item name="android:windowActionBar">true</item><!-- Set theme colors from http://www.google.com/design/spec/style/color.html#color-color-palette--></style></resources>

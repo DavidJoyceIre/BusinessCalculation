@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+  <item android:id="@+id/menu_add_task"
+        android:icon="@drawable/ic_action_addtask"
+        android:title="New Order"
+        android:showAsAction="ifRoom|withText" />
+  
+  <item android:id="@+id/mnuMyDetails"
+        android:title="My Details"
+        android:showAsAction="never" />
+  <item android:id="@+id/mnuLogout"
+        android:title="Log Out"
+        android:showAsAction="never" />
+</menu>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+        <TextView
+            android:text="Price (Without VAT):"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/label1" />
+        <EditText
+            android:id="@+id/txtPrice"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:maxLines="1"
+            android:layout_marginBottom="12dp"
+            android:text=""
+            android:inputType="numberDecimal"
+            android:textAlignment="textEnd"
+            android:selectAllOnFocus="true"
+            android:gravity="right" />
+        <TextView
+            android:text="VAT (%):"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/label8" />
+        <EditText
+            android:id="@+id/txtValueAddedTax"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:maxLines="1"
+            android:layout_marginBottom="12dp"
+            android:text=""
+            android:inputType="numberDecimal"
+            android:selectAllOnFocus="true"
+            android:gravity="right" />
+        <TextView
+            android:text="Price (With VAT):"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/label8" />
+        <EditText
+            android:id="@+id/txtPriceIncVat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:maxLines="1"
+            android:layout_marginBottom="12dp"
+            android:text=""
+            android:inputType="numberDecimal"
+            android:selectAllOnFocus="true"
+            android:gravity="right" />
+        <TextView
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblVAT" />
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/Calculate"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white" />
+    </TableLayout>
+</ScrollView>

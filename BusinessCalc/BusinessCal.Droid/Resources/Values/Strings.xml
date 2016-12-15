@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, Click Me!</string>
+  <string name="app_name">BusinessCal</string>
+  
+  <string name="Calculate">Calculate</string>
+  <string name="MarginCalculation">Gross Profit</string>
+  <string name="PriceCalculation">Sale Price</string>
+  <string name="VAT">Value Added Tax</string>
+  <string name="BreakEvenPoint">Break Even Point</string>
+</resources>
